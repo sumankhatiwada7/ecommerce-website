@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+   background-color: rgb(233, 236, 231);
+}
+.heading{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+header{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    
+}
+header h1{
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size:40px;
+}
+nav{
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+nav a{
+    margin-right: 100px;
+    color: black;
+    font-size: 20px;
+
+}
+nav input{
+    border-radius: 10px;
+    width:300px ;
+    height: 30px;
+    border: none;
+    background-color: rgb(207, 194, 194);
+    color: rgb(69, 62, 62);
+    padding-left: 20px;
+}
+nav a:hover{
+    color: aquamarine;
+
+}
+.homesection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightside-container{
+    margin-left: 70px;
+
+}
+.leftside-container img{
+    width:800px ;
+}
+.rightside-container h1{
+    font-size: 70px;
+}
+.rightside-container #second{
+    font-size: 80px;
+}
+.rightside-container p{
+    text-wrap: wrap;
+    margin-left: 10px;
+}
+.rightside-container button{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding-right: 10px;
+}
+.data-container{
+    display: flex;
+     
+}
+.data-container h2{
+  
+    font-size: 30px;
+    padding-left: 60px;
+}
+
+.data-item{
+    display: flex;
+    margin-top: 80px;
+    
+    
+    
+}
+hr{
+    margin: 7px 12px;
+}
+.data-item h2{
+    font-size: 40px;
+}
